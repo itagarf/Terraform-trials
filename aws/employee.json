@@ -1,0 +1,45 @@
+{
+    "item1":{
+            "emp_id": {
+                "N": "1"
+            },
+            "name": {
+                "S": "Mary"
+            },
+            "age": {
+                "N": "25"
+            },
+            "role": {
+                "S": "Manager"
+            }
+    },
+    "item2":{
+        "emp_id": {
+            "N": "2"
+        },
+        "name": {
+            "S": "Alex"
+        },
+        "age": {
+            "N": "23"
+        },
+        "role": {
+            "S": "Cashier"
+        }
+    },
+    "item3":{
+        "emp_id": {
+            "N": "3"
+        },
+        "name": {
+            "S": "Gift"
+        },
+        "age": {
+            "N": "30"
+        },
+        "role": {
+            "S": "Director"
+        }
+    }
+
+}
