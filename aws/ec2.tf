@@ -27,7 +27,7 @@ resource "aws_instance" "webserver" {
 }
 
 #resource "aws_key_pair" "my-key" {
-  #public_key = ""
+  #public_key = "id_rsa.pub"
 #}
 
 resource "aws_security_group" "new-sg" {
