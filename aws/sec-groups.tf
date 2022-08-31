@@ -10,21 +10,21 @@ resource "aws_security_group" "main" {
     from_port   = 443
     to_port     = 443
     protocol    = "tcp"
-    cidr_blocks = ["79.97.153.158/32"]
+    cidr_blocks = ["your-ip/32 or 0.0.0.0/0"]
   }
   ingress {
     description = "Allow inbound HTTP from my home computer"
     from_port   = 80
     to_port     = 80
     protocol    = "tcp"
-    cidr_blocks = ["79.97.153.158/32"]
+    cidr_blocks = ["your-ip/32 or 0.0.0.0/0"]
   }
   ingress {
     description = "Allow inbound SSH from my home computer"
     from_port   = 22
     to_port     = 22
     protocol    = "tcp"
-    cidr_blocks = ["79.97.153.158/32"]
+    cidr_blocks = ["your-ip/32 or 0.0.0.0/0"]
   }
 
   egress {
